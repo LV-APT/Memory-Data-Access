@@ -1,7 +1,7 @@
 [Workspace Header]
 Version = 1900
-Pathname Line0001 = "/d/Workspace/lv-APT-HAL-DLL-Integration-Interface/LabVIEWPrj/__SupportAPI/__TEST"
-Pathname Line0002 = "_DataType/TEST_DataType.cws"
+Pathname Line0001 = "/d/Workspace/user.lib/Memory-Data-Access/CVI_Memory Data Access/TEST_DataType.cw"
+Pathname Line0002 = "s"
 CVI Dir = "/c/program files (x86)/national instruments/cvi2019"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2019"
@@ -18,7 +18,7 @@ Window Top = 33
 Window Left = 962
 Window Bottom = 692
 Window Right = 2210
-Maximized = True
+Maximized = False
 Maximized Children = True
 Max32 Number Of Errors = 20
 Track Include File Dependencies = True
@@ -47,19 +47,17 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path Line0001 = "/d/Workspace/lv-APT-HAL-DLL-Integration-Interface/LabVIEWPrj/__SupportAPI/__TEST"
-Path Line0002 = "_DataType/TEST_DataType.c"
+Path = "/d/Workspace/user.lib/Memory-Data-Access/CVI_Memory Data Access/TEST_DataType.c"
 File Type = "CSource"
 Disk Date = 3705291137
 In Projects = "1,"
-Source Window State = "1,96,96,96,0,0,0,0,0,0,0,0,0,0,0,0,71,0,96,0,401,630,1,0,"
+Source Window State = "1,108,108,108,4,21,4,0,3,0,0,0,0,0,0,0,76,0,108,21,401,630,1,0,"
 Window Top = 64
 Window Left = 26
 Window Z-Order = 1
 
 [File 0002]
-Path Line0001 = "/d/Workspace/lv-APT-HAL-DLL-Integration-Interface/LabVIEWPrj/__SupportAPI/__TEST"
-Path Line0002 = "_DataType/TEST_DataType.h"
+Path = "/d/Workspace/user.lib/Memory-Data-Access/CVI_Memory Data Access/TEST_DataType.h"
 File Type = "Include"
 Disk Date = 3705287992
 In Projects = "1,"
@@ -69,10 +67,8 @@ Window Left = 10
 Window Z-Order = 2
 
 [Tab Order]
-Tab 0001 Line0001 = "/d/Workspace/lv-APT-HAL-DLL-Integration-Interface/LabVIEWPrj/__SupportAPI/__TEST"
-Tab 0001 Line0002 = "_DataType/TEST_DataType.c"
-Tab 0002 Line0001 = "/d/Workspace/lv-APT-HAL-DLL-Integration-Interface/LabVIEWPrj/__SupportAPI/__TEST"
-Tab 0002 Line0002 = "_DataType/TEST_DataType.h"
+Tab 0001 = "/d/Workspace/user.lib/Memory-Data-Access/CVI_Memory Data Access/TEST_DataType.h"
+Tab 0002 = "/d/Workspace/user.lib/Memory-Data-Access/CVI_Memory Data Access/TEST_DataType.c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True
