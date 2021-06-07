@@ -21,6 +21,9 @@
 		<Item Name="Mem_StrArray.vi" Type="VI" URL="../API/Mem_StrArray.vi"/>
 		<Item Name="Mem_U8ArrayToData.vi" Type="VI" URL="../API/Mem_U8ArrayToData.vi"/>
 	</Item>
+	<Item Name="Global" Type="Folder">
+		<Item Name="Global.vi" Type="VI" URL="../Global/Global.vi"/>
+	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="memoryDataBlock.ctl" Type="VI" URL="../Typedef/memoryDataBlock.ctl"/>
 	</Item>
