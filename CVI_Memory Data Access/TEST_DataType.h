@@ -26,26 +26,32 @@
 // Constants
 
 #define MAX_STR_LEN 1024
+#define ARRAY_LEN 2
 //==============================================================================
 // Types
 typedef uint8_t* U8Ptr;
 
-typedef struct Array_DBL{
-	unsigned long *Len;
-	double* pData;
-}Array_DBL;
+typedef struct NI_Array{
+	unsigned long Len;
+	unsigned long long Addr;
+}NI_Array;
 
-typedef struct Array_Str{
-	unsigned long *Len;
-	char* pStr;
-}Array_Str;
+//typedef struct Array_DBL{
+//	unsigned long *Len;
+//	double* pData;
+//}Array_DBL;
+
+//typedef struct Array_Str{
+//	unsigned long *Len;
+//	char* pStr;
+//}Array_Str;
 
 
 typedef struct ClusterType{
-	int *para_I32;
-	double *para_DBL;
-	char* para_Str;
-	double *para_ArrayDBL;
+	int para_I32;
+	double para_DBL;
+	char para_Str[MAX_STR_LEN];
+	NI_Array para_Array;
 }ClusterType;
 
 

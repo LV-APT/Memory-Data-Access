@@ -11,6 +11,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="__Support" Type="Folder">
+		<Item Name="GetArrayLengthAndAddress.vi" Type="VI" URL="../__Support/GetArrayLengthAndAddress.vi"/>
+	</Item>
 	<Item Name="__TEST" Type="Folder">
 		<Item Name="__Test_DataToU8Array.vi" Type="VI" URL="../__TEST/__Test_DataToU8Array.vi"/>
 		<Item Name="__Test_U8ArrayToData.vi" Type="VI" URL="../__TEST/__Test_U8ArrayToData.vi"/>
@@ -18,6 +21,8 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="Mem_DataToU8Array.vi" Type="VI" URL="../API/Mem_DataToU8Array.vi"/>
 		<Item Name="Mem_DBLArray.vi" Type="VI" URL="../API/Mem_DBLArray.vi"/>
+		<Item Name="Mem_ObtainQueue.vi" Type="VI" URL="../API/Mem_ObtainQueue.vi"/>
+		<Item Name="Mem_Release.vi" Type="VI" URL="../API/Mem_Release.vi"/>
 		<Item Name="Mem_StrArray.vi" Type="VI" URL="../API/Mem_StrArray.vi"/>
 		<Item Name="Mem_U8ArrayToData.vi" Type="VI" URL="../API/Mem_U8ArrayToData.vi"/>
 	</Item>

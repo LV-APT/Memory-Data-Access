@@ -69,44 +69,37 @@ int getData_Str (U8Ptr inputs)
 
 unsigned long getData_Array_DBL (U8Ptr inputs)
 {
-	Array_DBL Ptr;
-	Ptr.Len = (unsigned long*)(inputs);
-	Ptr.pData = (double*)(inputs+4);
-	return *Ptr.Len;
+	NI_Array* Ptr = (NI_Array*) inputs;
+	double* pData = (double *) Ptr->Addr;
+	return Ptr->Len;
 }
 
 unsigned long getData_Array_Str (U8Ptr inputs)
 {
 	//Array_Str *Ptr = (Array_Str*) inputs;
-	Array_Str Ptr;
-	Ptr.Len = (unsigned long*)(inputs);
-	Ptr.pStr = (char*)(inputs+4);
-	return *Ptr.Len;
+	NI_Array* Ptr = (NI_Array*) inputs;
+	for(int i = 0; i < Ptr->Len; i++){
+		char* pData = (char*) (Ptr->Addr + i*MAX_STR_LEN);
+	}
+	//char* pData = (char *) Ptr->Addr;
+	return Ptr->Len;
 }
 
 unsigned long getData_Array_Waveform(U8Ptr inputs)
 {
-	
-	unsigned long *num = (unsigned long*)inputs;
-	unsigned long index = 4;
-	for(int i = 0; i < *num; i++){
-		index += 4+8*getData_Waveform(inputs+index);
+	NI_Array* Ptr = (NI_Array*) inputs;
+	for(int i = 0; i < Ptr->Len; i++){
+		NI_Array* wavPtr = (((NI_Array*) (Ptr->Addr)) + i);
+		double* pData = (double*) wavPtr->Addr; 
 	}
-	return (*num);
+	return Ptr->Len;
 }
 
 
 int getData_Cluster (U8Ptr inputs)
 {
-	ClusterType Ptr;
-	unsigned long index = 0;
-	Ptr.para_I32 = (int*)(inputs+index);
-	index += sizeof(int);
-	Ptr.para_DBL = (double*)(inputs+index);
-	index += sizeof(double);
-	Ptr.para_Str = (char*)(inputs+index);
-	index += MAX_STR_LEN;
-	getData_Array_DBL(inputs+index);
+	ClusterType* Ptr = (ClusterType*) inputs;
+	double* pData = (double*) Ptr->para_Array.Addr;
 	return 0;
 }
 
@@ -118,10 +111,9 @@ double getData_TimeStamp (U8Ptr inputs)
 
 unsigned long getData_Waveform (U8Ptr inputs)
 {
-	Array_DBL Ptr;
-	Ptr.Len = (unsigned long*)inputs;
-	Ptr.pData = (double*)(inputs+4);
-	return *Ptr.Len;
+	NI_Array* Ptr = (NI_Array*) inputs;
+	double* pData = (double*) Ptr->Addr;
+	return Ptr->Len;
 }
 
 int getData_Path (U8Ptr inputs)
@@ -129,6 +121,7 @@ int getData_Path (U8Ptr inputs)
 	char *Str = (char*) inputs;
 	return 0;
 }
+
 //==============================================================================
 // DLL main entry-point functions
 
