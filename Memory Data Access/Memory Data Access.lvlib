@@ -12,6 +12,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="__Support" Type="Folder">
+		<Item Name="GenerateUUID.vi" Type="VI" URL="../__Support/GenerateUUID.vi"/>
 		<Item Name="GetArrayLengthAndAddress.vi" Type="VI" URL="../__Support/GetArrayLengthAndAddress.vi"/>
 	</Item>
 	<Item Name="__TEST" Type="Folder">
