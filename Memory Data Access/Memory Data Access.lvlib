@@ -20,19 +20,19 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Mem_DBLArray.vi" Type="VI" URL="../API/Mem_DBLArray.vi"/>
-			<Item Name="Mem_I8Array.vi" Type="VI" URL="../API/Mem_I8Array.vi"/>
-			<Item Name="Mem_I16Array.vi" Type="VI" URL="../API/Mem_I16Array.vi"/>
-			<Item Name="Mem_I32Array.vi" Type="VI" URL="../API/Mem_I32Array.vi"/>
-			<Item Name="Mem_I64Array.vi" Type="VI" URL="../API/Mem_I64Array.vi"/>
-			<Item Name="Mem_SGLArray.vi" Type="VI" URL="../API/Mem_SGLArray.vi"/>
-			<Item Name="Mem_Str.vi" Type="VI" URL="../API/Mem_Str.vi"/>
-			<Item Name="Mem_StrArray.vi" Type="VI" URL="../API/Mem_StrArray.vi"/>
-			<Item Name="Mem_U8Array.vi" Type="VI" URL="../API/Mem_U8Array.vi"/>
-			<Item Name="Mem_U16Array.vi" Type="VI" URL="../API/Mem_U16Array.vi"/>
-			<Item Name="Mem_U32Array.vi" Type="VI" URL="../API/Mem_U32Array.vi"/>
-			<Item Name="Mem_U64Array.vi" Type="VI" URL="../API/Mem_U64Array.vi"/>
-			<Item Name="Mem_WaveformArray.vi" Type="VI" URL="../API/Mem_WaveformArray.vi"/>
+			<Item Name="Mem_DBLArray.vi" Type="VI" URL="../API/Utility/Mem_DBLArray.vi"/>
+			<Item Name="Mem_I8Array.vi" Type="VI" URL="../API/Utility/Mem_I8Array.vi"/>
+			<Item Name="Mem_I16Array.vi" Type="VI" URL="../API/Utility/Mem_I16Array.vi"/>
+			<Item Name="Mem_I32Array.vi" Type="VI" URL="../API/Utility/Mem_I32Array.vi"/>
+			<Item Name="Mem_I64Array.vi" Type="VI" URL="../API/Utility/Mem_I64Array.vi"/>
+			<Item Name="Mem_SGLArray.vi" Type="VI" URL="../API/Utility/Mem_SGLArray.vi"/>
+			<Item Name="Mem_Str.vi" Type="VI" URL="../API/Utility/Mem_Str.vi"/>
+			<Item Name="Mem_StrArray.vi" Type="VI" URL="../API/Utility/Mem_StrArray.vi"/>
+			<Item Name="Mem_U8Array.vi" Type="VI" URL="../API/Utility/Mem_U8Array.vi"/>
+			<Item Name="Mem_U16Array.vi" Type="VI" URL="../API/Utility/Mem_U16Array.vi"/>
+			<Item Name="Mem_U32Array.vi" Type="VI" URL="../API/Utility/Mem_U32Array.vi"/>
+			<Item Name="Mem_U64Array.vi" Type="VI" URL="../API/Utility/Mem_U64Array.vi"/>
+			<Item Name="Mem_WaveformArray.vi" Type="VI" URL="../API/Utility/Mem_WaveformArray.vi"/>
 		</Item>
 		<Item Name="Mem_DataToU8Array.vi" Type="VI" URL="../API/Mem_DataToU8Array.vi"/>
 		<Item Name="Mem_ObtainQueue.vi" Type="VI" URL="../API/Mem_ObtainQueue.vi"/>
