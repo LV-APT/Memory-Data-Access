@@ -20,11 +20,13 @@
 		<Item Name="__Test_U8ArrayToData.vi" Type="VI" URL="../__TEST/__Test_U8ArrayToData.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
+		<Item Name="Utility" Type="Folder">
+			<Item Name="Mem_DBLArray.vi" Type="VI" URL="../API/Mem_DBLArray.vi"/>
+			<Item Name="Mem_StrArray.vi" Type="VI" URL="../API/Mem_StrArray.vi"/>
+		</Item>
 		<Item Name="Mem_DataToU8Array.vi" Type="VI" URL="../API/Mem_DataToU8Array.vi"/>
-		<Item Name="Mem_DBLArray.vi" Type="VI" URL="../API/Mem_DBLArray.vi"/>
 		<Item Name="Mem_ObtainQueue.vi" Type="VI" URL="../API/Mem_ObtainQueue.vi"/>
 		<Item Name="Mem_Release.vi" Type="VI" URL="../API/Mem_Release.vi"/>
-		<Item Name="Mem_StrArray.vi" Type="VI" URL="../API/Mem_StrArray.vi"/>
 		<Item Name="Mem_U8ArrayToData.vi" Type="VI" URL="../API/Mem_U8ArrayToData.vi"/>
 	</Item>
 	<Item Name="Global" Type="Folder">
