@@ -16,6 +16,8 @@
 	</Item>
 	<Item Name="__TEST" Type="Folder">
 		<Item Name="__Test_DataToU8Array.vi" Type="VI" URL="../__TEST/__Test_DataToU8Array.vi"/>
+		<Item Name="__Test_NOPTR_DataToU8Array.vi" Type="VI" URL="../__TEST/__Test_NOPTR_DataToU8Array.vi"/>
+		<Item Name="__Test_NOPTR_U8ArrayToData.vi" Type="VI" URL="../__TEST/__Test_NOPTR_U8ArrayToData.vi"/>
 		<Item Name="__Test_U8ArrayToData.vi" Type="VI" URL="../__TEST/__Test_U8ArrayToData.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">

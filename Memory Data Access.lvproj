@@ -36,6 +36,7 @@
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
 			<Item Name="TEST_DataType.dll" Type="Document" URL="../CVI_Memory Data Access/TEST_DataType.dll"/>
+			<Item Name="TEST_DataType.dll" Type="Document" URL="../NOPTR_CVI_Prj/TEST_DataType.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
