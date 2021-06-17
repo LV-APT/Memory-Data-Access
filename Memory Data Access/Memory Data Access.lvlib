@@ -38,6 +38,7 @@
 		<Item Name="Mem_ObtainQueue.vi" Type="VI" URL="../API/Mem_ObtainQueue.vi"/>
 		<Item Name="Mem_Release.vi" Type="VI" URL="../API/Mem_Release.vi"/>
 		<Item Name="Mem_U8ArrayToData.vi" Type="VI" URL="../API/Mem_U8ArrayToData.vi"/>
+		<Item Name="NOPTR_Mem_DataToU8Array.vi" Type="VI" URL="../API/NOPTR_Mem_DataToU8Array.vi"/>
 	</Item>
 	<Item Name="Global" Type="Folder">
 		<Item Name="Global.vi" Type="VI" URL="../Global/Global.vi"/>
