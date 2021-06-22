@@ -12,36 +12,28 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="__Support" Type="Folder">
-		<Item Name="GetArrayLengthAndAddress.vi" Type="VI" URL="../__Support/GetArrayLengthAndAddress.vi"/>
-	</Item>
-	<Item Name="__TEST" Type="Folder">
-		<Item Name="__Test_DataToU8Array.vi" Type="VI" URL="../__TEST/__Test_DataToU8Array.vi"/>
-		<Item Name="__Test_NOPTR_DataToU8Array.vi" Type="VI" URL="../__TEST/__Test_NOPTR_DataToU8Array.vi"/>
-		<Item Name="__Test_NOPTR_U8ArrayToData.vi" Type="VI" URL="../__TEST/__Test_NOPTR_U8ArrayToData.vi"/>
-		<Item Name="__Test_U8ArrayToData.vi" Type="VI" URL="../__TEST/__Test_U8ArrayToData.vi"/>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Mem_DBLArray.vi" Type="VI" URL="../__Support/Mem_DBLArray.vi"/>
+		<Item Name="Mem_I8Array.vi" Type="VI" URL="../__Support/Mem_I8Array.vi"/>
+		<Item Name="Mem_I16Array.vi" Type="VI" URL="../__Support/Mem_I16Array.vi"/>
+		<Item Name="Mem_I32Array.vi" Type="VI" URL="../__Support/Mem_I32Array.vi"/>
+		<Item Name="Mem_I64Array.vi" Type="VI" URL="../__Support/Mem_I64Array.vi"/>
+		<Item Name="Mem_SGLArray.vi" Type="VI" URL="../__Support/Mem_SGLArray.vi"/>
+		<Item Name="Mem_Str.vi" Type="VI" URL="../__Support/Mem_Str.vi"/>
+		<Item Name="Mem_StrArray.vi" Type="VI" URL="../__Support/Mem_StrArray.vi"/>
+		<Item Name="Mem_U8Array.vi" Type="VI" URL="../__Support/Mem_U8Array.vi"/>
+		<Item Name="Mem_U16Array.vi" Type="VI" URL="../__Support/Mem_U16Array.vi"/>
+		<Item Name="Mem_U32Array.vi" Type="VI" URL="../__Support/Mem_U32Array.vi"/>
+		<Item Name="Mem_U64Array.vi" Type="VI" URL="../__Support/Mem_U64Array.vi"/>
+		<Item Name="Mem_WaveformArray.vi" Type="VI" URL="../__Support/Mem_WaveformArray.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
-		<Item Name="Utility" Type="Folder">
-			<Item Name="Mem_DBLArray.vi" Type="VI" URL="../API/Utility/Mem_DBLArray.vi"/>
-			<Item Name="Mem_I8Array.vi" Type="VI" URL="../API/Utility/Mem_I8Array.vi"/>
-			<Item Name="Mem_I16Array.vi" Type="VI" URL="../API/Utility/Mem_I16Array.vi"/>
-			<Item Name="Mem_I32Array.vi" Type="VI" URL="../API/Utility/Mem_I32Array.vi"/>
-			<Item Name="Mem_I64Array.vi" Type="VI" URL="../API/Utility/Mem_I64Array.vi"/>
-			<Item Name="Mem_SGLArray.vi" Type="VI" URL="../API/Utility/Mem_SGLArray.vi"/>
-			<Item Name="Mem_Str.vi" Type="VI" URL="../API/Utility/Mem_Str.vi"/>
-			<Item Name="Mem_StrArray.vi" Type="VI" URL="../API/Utility/Mem_StrArray.vi"/>
-			<Item Name="Mem_U8Array.vi" Type="VI" URL="../API/Utility/Mem_U8Array.vi"/>
-			<Item Name="Mem_U16Array.vi" Type="VI" URL="../API/Utility/Mem_U16Array.vi"/>
-			<Item Name="Mem_U32Array.vi" Type="VI" URL="../API/Utility/Mem_U32Array.vi"/>
-			<Item Name="Mem_U64Array.vi" Type="VI" URL="../API/Utility/Mem_U64Array.vi"/>
-			<Item Name="Mem_WaveformArray.vi" Type="VI" URL="../API/Utility/Mem_WaveformArray.vi"/>
-		</Item>
-		<Item Name="Mem_DataToU8Array.vi" Type="VI" URL="../API/Mem_DataToU8Array.vi"/>
-		<Item Name="Mem_ObtainQueue.vi" Type="VI" URL="../API/Mem_ObtainQueue.vi"/>
-		<Item Name="Mem_Release.vi" Type="VI" URL="../API/Mem_Release.vi"/>
-		<Item Name="Mem_U8ArrayToData.vi" Type="VI" URL="../API/Mem_U8ArrayToData.vi"/>
-		<Item Name="NOPTR_Mem_DataToU8Array.vi" Type="VI" URL="../API/NOPTR_Mem_DataToU8Array.vi"/>
-		<Item Name="NOPTR_Mem_U8ArrayToData.vi" Type="VI" URL="../API/NOPTR_Mem_U8ArrayToData.vi"/>
+		<Item Name="Mem_LvDataToMemory.vi" Type="VI" URL="../API/Mem_LvDataToMemory.vi"/>
+		<Item Name="Mem_LvDataToMemory_NOPTR.vi" Type="VI" URL="../API/Mem_LvDataToMemory_NOPTR.vi"/>
+		<Item Name="Mem_MemoryToLvData.vi" Type="VI" URL="../API/Mem_MemoryToLvData.vi"/>
+		<Item Name="Mem_MemoryToLvData_NOPTR.vi" Type="VI" URL="../API/Mem_MemoryToLvData_NOPTR.vi"/>
+		<Item Name="Mem_ObtainPTRQueue.vi" Type="VI" URL="../API/Mem_ObtainPTRQueue.vi"/>
+		<Item Name="Mem_ReleasePTRQueue.vi" Type="VI" URL="../API/Mem_ReleasePTRQueue.vi"/>
 	</Item>
 	<Item Name="Global" Type="Folder">
 		<Item Name="Global.vi" Type="VI" URL="../Global/Global.vi"/>
