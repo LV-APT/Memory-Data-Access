@@ -1,7 +1,6 @@
 [Workspace Header]
 Version = 1900
-Pathname Line0001 = "/d/Workspace/_TEST/Tong's Code/__TESTMemoryAddress/Memory-Data-Access/CVI_Memory"
-Pathname Line0002 = " Data Access/TEST_DataType.cws"
+Pathname = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_DataType.cws"
 CVI Dir = "/c/program files (x86)/national instruments/cvi2019"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2019"
@@ -13,7 +12,7 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "TEST_DataType.prj"
-Drag Bar Left = 177
+Drag Bar Left = 281
 Window Top = 33
 Window Left = 274
 Window Bottom = 692
@@ -33,7 +32,7 @@ Break At First Statement = False
 Sort Type = "File Name"
 Number of Opened Files = 2
 Window Confinement Region Enabled = True
-MainColumnWidth = 160
+MainColumnWidth = 264
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -47,32 +46,28 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path Line0001 = "/d/Workspace/_TEST/Tong's Code/__TESTMemoryAddress/Memory-Data-Access/CVI_Memory"
-Path Line0002 = " Data Access/TEST_DataType.c"
+Path = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_DataType.c"
 File Type = "CSource"
-Disk Date = 3706069433
+Disk Date = 3707185082
 In Projects = "1,"
-Source Window State = "1,121,121,121,13,13,13,0,0,0,0,0,0,0,0,0,92,0,121,13,401,630,1,0,"
+Source Window State = "1,121,121,121,13,13,13,0,0,0,0,0,0,0,0,0,67,0,121,13,401,630,1,0,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 1
-
-[File 0002]
-Path Line0001 = "/d/Workspace/_TEST/Tong's Code/__TESTMemoryAddress/Memory-Data-Access/CVI_Memory"
-Path Line0002 = " Data Access/TEST_DataType.h"
-File Type = "Include"
-Disk Date = 3706068755
-In Projects = "1,"
-Source Window State = "1,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,12,0,12,0,401,630,1,0,"
-Window Top = 33
-Window Left = 10
 Window Z-Order = 2
 
+[File 0002]
+Path = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_DataType.h"
+File Type = "Include"
+Disk Date = 3707185082
+In Projects = "1,"
+Source Window State = "1,35,35,35,28,28,28,0,0,0,0,0,0,0,0,0,18,0,35,28,401,630,1,0,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 1
+
 [Tab Order]
-Tab 0001 Line0001 = "/d/Workspace/_TEST/Tong's Code/__TESTMemoryAddress/Memory-Data-Access/CVI_Memory"
-Tab 0001 Line0002 = " Data Access/TEST_DataType.h"
-Tab 0002 Line0001 = "/d/Workspace/_TEST/Tong's Code/__TESTMemoryAddress/Memory-Data-Access/CVI_Memory"
-Tab 0002 Line0002 = " Data Access/TEST_DataType.c"
+Tab 0001 = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_DataType.h"
+Tab 0002 = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_DataType.c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True
