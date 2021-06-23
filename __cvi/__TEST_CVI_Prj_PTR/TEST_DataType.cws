@@ -50,20 +50,20 @@ Path = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_Data
 File Type = "CSource"
 Disk Date = 3707185082
 In Projects = "1,"
-Source Window State = "1,121,121,121,13,13,13,0,0,0,0,0,0,0,0,0,67,0,121,13,401,630,1,0,"
+Source Window State = "1,121,121,121,13,13,13,0,0,0,0,0,0,0,0,0,0,0,121,13,401,630,1,0,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 2
+Window Z-Order = 1
 
 [File 0002]
 Path = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_DataType.h"
 File Type = "Include"
 Disk Date = 3707185082
 In Projects = "1,"
-Source Window State = "1,35,35,35,28,28,28,0,0,0,0,0,0,0,0,0,18,0,35,28,401,630,1,0,"
+Source Window State = "1,30,30,30,8,8,8,0,0,0,0,0,0,0,0,0,22,0,30,8,401,630,1,0,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 1
+Window Z-Order = 2
 
 [Tab Order]
 Tab 0001 = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_PTR/TEST_DataType.h"

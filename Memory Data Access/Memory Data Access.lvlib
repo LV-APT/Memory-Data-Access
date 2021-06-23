@@ -29,11 +29,7 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Utility" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Mem_LvDataToMemory_NOPTR.vi" Type="VI" URL="../API/Utility/Mem_LvDataToMemory_NOPTR.vi"/>
-			<Item Name="Mem_LvDataToMemory_PTR.vi" Type="VI" URL="../API/Utility/Mem_LvDataToMemory_PTR.vi"/>
-			<Item Name="Mem_MemoryToLvData_NOPTR.vi" Type="VI" URL="../API/Utility/Mem_MemoryToLvData_NOPTR.vi"/>
-			<Item Name="Mem_MemoryToLvData_PTR.vi" Type="VI" URL="../API/Utility/Mem_MemoryToLvData_PTR.vi"/>
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		</Item>
 		<Item Name="Mem_LvDataToMemory.vi" Type="VI" URL="../API/Mem_LvDataToMemory.vi"/>
 		<Item Name="Mem_MemoryToLvData.vi" Type="VI" URL="../API/Mem_MemoryToLvData.vi"/>
@@ -42,6 +38,13 @@
 	</Item>
 	<Item Name="Global" Type="Folder">
 		<Item Name="Global.vi" Type="VI" URL="../Global/Global.vi"/>
+	</Item>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="LvDataToMemory_NOPTR.vi" Type="VI" URL="../Private/LvDataToMemory_NOPTR.vi"/>
+		<Item Name="LvDataToMemory_PTR.vi" Type="VI" URL="../Private/LvDataToMemory_PTR.vi"/>
+		<Item Name="MemoryToLvData_NOPTR.vi" Type="VI" URL="../Private/MemoryToLvData_NOPTR.vi"/>
+		<Item Name="MemoryToLvData_PTR.vi" Type="VI" URL="../Private/MemoryToLvData_PTR.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="memoryDataBlock.ctl" Type="VI" URL="../Typedef/memoryDataBlock.ctl"/>
