@@ -10,6 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="__TEST" Type="Folder">
+			<Item Name="__Test_LvDataToMemory_NOPTR.vi" Type="VI" URL="../Memory Data Access/__TEST/__Test_LvDataToMemory_NOPTR.vi"/>
+			<Item Name="__Test_LvDataToMemory_PTR.vi" Type="VI" URL="../Memory Data Access/__TEST/__Test_LvDataToMemory_PTR.vi"/>
+			<Item Name="__Test_MemoryToLvData_NOPTR.vi" Type="VI" URL="../Memory Data Access/__TEST/__Test_MemoryToLvData_NOPTR.vi"/>
+			<Item Name="__Test_MemoryToLvData_PTR.vi" Type="VI" URL="../Memory Data Access/__TEST/__Test_MemoryToLvData_PTR.vi"/>
+		</Item>
 		<Item Name="Memory Data Access.lvlib" Type="Library" URL="../Memory Data Access/Memory Data Access.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -35,7 +41,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 			</Item>
-			<Item Name="TEST_DataType.dll" Type="Document" URL="../CVI_Memory Data Access/TEST_DataType.dll"/>
+			<Item Name="TEST_DataType.dll" Type="Document" URL="../__cvi/__TEST_CVI_Prj_NOPTR/TEST_DataType.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

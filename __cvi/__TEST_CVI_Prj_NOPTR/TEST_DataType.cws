@@ -1,6 +1,7 @@
 [Workspace Header]
 Version = 1900
-Pathname = "/d/Workspace/user.lib/Memory-Data-Access/NOPTR_CVI_Prj/TEST_DataType.cws"
+Pathname Line0001 = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_NOPTR/TEST_DataType.c"
+Pathname Line0002 = "ws"
 CVI Dir = "/c/program files (x86)/national instruments/cvi2019"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2019"
@@ -46,19 +47,19 @@ Batch Build Release = False
 Batch Build Debug = False
 
 [File 0001]
-Path = "/d/Workspace/user.lib/Memory-Data-Access/NOPTR_CVI_Prj/TEST_DataType.c"
+Path = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_NOPTR/TEST_DataType.c"
 File Type = "CSource"
-Disk Date = 3705875937
+Disk Date = 3707185083
 In Projects = "1,"
-Source Window State = "1,134,134,134,0,0,0,0,0,0,0,0,0,0,0,0,123,0,134,0,401,630,1,0,"
+Source Window State = "1,129,129,129,13,13,13,0,0,0,0,0,0,0,0,0,62,0,129,13,401,630,1,0,"
 Window Top = 64
 Window Left = 26
 Window Z-Order = 1
 
 [File 0002]
-Path = "/d/Workspace/user.lib/Memory-Data-Access/NOPTR_CVI_Prj/TEST_DataType.h"
+Path = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_NOPTR/TEST_DataType.h"
 File Type = "Include"
-Disk Date = 3705875937
+Disk Date = 3707185083
 In Projects = "1,"
 Source Window State = "1,65,65,65,35,35,35,0,0,0,0,0,0,0,0,0,40,0,65,35,401,630,1,0,"
 Window Top = 33
@@ -66,8 +67,8 @@ Window Left = 10
 Window Z-Order = 2
 
 [Tab Order]
-Tab 0001 = "/d/Workspace/user.lib/Memory-Data-Access/NOPTR_CVI_Prj/TEST_DataType.h"
-Tab 0002 = "/d/Workspace/user.lib/Memory-Data-Access/NOPTR_CVI_Prj/TEST_DataType.c"
+Tab 0001 = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_NOPTR/TEST_DataType.h"
+Tab 0002 = "/d/Workspace/_TEST/Memory-Data-Access/__cvi/__TEST_CVI_Prj_NOPTR/TEST_DataType.c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True
