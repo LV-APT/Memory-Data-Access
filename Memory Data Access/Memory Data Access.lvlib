@@ -32,11 +32,12 @@
 		<Item Name="MemoryToLvData_PTR.vi" Type="VI" URL="../__Support/MemoryToLvData_PTR.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Mem_LvDataToMemory.vi" Type="VI" URL="../API/Mem_LvDataToMemory.vi"/>
 		<Item Name="Mem_MemoryToLvData.vi" Type="VI" URL="../API/Mem_MemoryToLvData.vi"/>
 		<Item Name="Mem_ObtainPTRQueue.vi" Type="VI" URL="../API/Mem_ObtainPTRQueue.vi"/>
-		<Item Name="Mem_PTRToLvData.vi" Type="VI" URL="../API/Mem_PTRToLvData.vi"/>
 		<Item Name="Mem_ReleasePTRQueue.vi" Type="VI" URL="../API/Mem_ReleasePTRQueue.vi"/>
+		<Item Name="Mem_PTRToLvData.vi" Type="VI" URL="../API/Mem_PTRToLvData.vi"/>
 	</Item>
 	<Item Name="Global" Type="Folder">
 		<Item Name="Global.vi" Type="VI" URL="../Global/Global.vi"/>
