@@ -13,6 +13,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="__Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="LvDataToMemory_NOPTR.vi" Type="VI" URL="../__Support/LvDataToMemory_NOPTR.vi"/>
+		<Item Name="LvDataToMemory_PTR.vi" Type="VI" URL="../__Support/LvDataToMemory_PTR.vi"/>
 		<Item Name="Mem_DBLArray.vi" Type="VI" URL="../__Support/Mem_DBLArray.vi"/>
 		<Item Name="Mem_I8Array.vi" Type="VI" URL="../__Support/Mem_I8Array.vi"/>
 		<Item Name="Mem_I16Array.vi" Type="VI" URL="../__Support/Mem_I16Array.vi"/>
@@ -26,25 +28,18 @@
 		<Item Name="Mem_U32Array.vi" Type="VI" URL="../__Support/Mem_U32Array.vi"/>
 		<Item Name="Mem_U64Array.vi" Type="VI" URL="../__Support/Mem_U64Array.vi"/>
 		<Item Name="Mem_WaveformArray.vi" Type="VI" URL="../__Support/Mem_WaveformArray.vi"/>
+		<Item Name="MemoryToLvData_NOPTR.vi" Type="VI" URL="../__Support/MemoryToLvData_NOPTR.vi"/>
+		<Item Name="MemoryToLvData_PTR.vi" Type="VI" URL="../__Support/MemoryToLvData_PTR.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
-		<Item Name="Utility" Type="Folder">
-			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		</Item>
 		<Item Name="Mem_LvDataToMemory.vi" Type="VI" URL="../API/Mem_LvDataToMemory.vi"/>
 		<Item Name="Mem_MemoryToLvData.vi" Type="VI" URL="../API/Mem_MemoryToLvData.vi"/>
 		<Item Name="Mem_ObtainPTRQueue.vi" Type="VI" URL="../API/Mem_ObtainPTRQueue.vi"/>
+		<Item Name="Mem_PTRToLvData.vi" Type="VI" URL="../API/Mem_PTRToLvData.vi"/>
 		<Item Name="Mem_ReleasePTRQueue.vi" Type="VI" URL="../API/Mem_ReleasePTRQueue.vi"/>
 	</Item>
 	<Item Name="Global" Type="Folder">
 		<Item Name="Global.vi" Type="VI" URL="../Global/Global.vi"/>
-	</Item>
-	<Item Name="Private" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="LvDataToMemory_NOPTR.vi" Type="VI" URL="../Private/LvDataToMemory_NOPTR.vi"/>
-		<Item Name="LvDataToMemory_PTR.vi" Type="VI" URL="../Private/LvDataToMemory_PTR.vi"/>
-		<Item Name="MemoryToLvData_NOPTR.vi" Type="VI" URL="../Private/MemoryToLvData_NOPTR.vi"/>
-		<Item Name="MemoryToLvData_PTR.vi" Type="VI" URL="../Private/MemoryToLvData_PTR.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="memoryDataBlock.ctl" Type="VI" URL="../Typedef/memoryDataBlock.ctl"/>
