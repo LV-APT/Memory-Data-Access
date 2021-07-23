@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-07-12 14:41:37" Modified_Date="2021-07-15 10:15:58" Creator="yao" Comments="" ID="a2bd6df77c9b814b0d7fbe6ee54e74eb">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-07-12 14:41:37" Modified_Date="2021-07-23 15:00:57" Creator="yao" Comments="" ID="22f8d83c1a150dba5c9544c84d1cbdf0">
   <Library_General_Settings>
     <Package_File_Name>lvAPT_lib_Memory_Data_Access</Package_File_Name>
-    <Library_Version>0.1.0.3</Library_Version>
+    <Library_Version>0.1.1.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Memory Data Access</Library_Source_Folder>
     <Library_Output_Folder>_vip</Library_Output_Folder>
@@ -119,7 +119,7 @@
       <Namespace_Overrides>
         <Path>Memory Data Access.lvlib</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>--lvpat</Namespace>
+        <Namespace>--lvapt</Namespace>
       </Namespace_Overrides>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -276,7 +276,7 @@
         <Path>Memory Data Access\API\Mem_PTRToLvData.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5854E1AD5AEBF1A1C474DCAABECEB2B2</GUID>
+      <GUID>5B41C02917348860676E45B6C0EFD2C5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
